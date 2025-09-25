@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(nature_background_image__cartoon_style.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    flex-direction: column;
+    padding: 5%;
+    gap: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid white;    
+}
+
+#loginlb{
+    background-color: transparent;
+    transform: translateY(-12px);
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(243, 230, 230);
+}
+
+#entries{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#user{
+    border-radius: 15px;
+    border: 6px solid white;
+    padding-left: 5%;
+}
+
+#pwsd{
+    border-radius: 15px;
+    border: 6px solid white;
+    padding-left: 5%;
+}
+
+
+button{
+    width: 80%;
+    border-radius: 15px;
+    border: 1px solid white;
+    gap: 20px;
+    color: gray;
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    padding: 0.3em 0.2em;
+}
